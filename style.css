@@ -1,0 +1,105 @@
+body {
+    margin-top: 5%;
+    background: linear-gradient(to right, rgb(65, 22, 91), 
+    rgb(188, 91, 247),rgb(42, 2, 73));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    cursor: pointer;
+    color: rgb(25, 2, 26);
+    font-size: large;
+}
+h1 {
+    font-family: colus;
+}
+.colorvalue {
+    margin-top: 60px;
+    font-family: monospace;
+    color: black;
+}
+.colorcont {
+    margin-top: 2rem;
+    background-color: rgba(255, 255, 255, 0.158);
+    border-radius: 20px;
+    padding: 9px;
+    max-width: 50%;
+    display: inline-flex;
+    justify-content: center;
+    box-shadow: 5px 6px 8px 0px rgba(12, 12, 12, 0.253)
+}
+
+input[type="color"] {
+	-webkit-appearance: none;
+    border: none;
+    box-sizing: border-box;
+    width: 70px;
+	height: 70px;
+    outline: none;
+    border-radius: 50%;
+    padding: 0;
+    margin-right: 15px;
+    margin-left: 15px;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 5px 6px 8px 0px rgba(12, 12, 12, 0.418);
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 50%;
+    border: none;
+}
+
+input[type="color"]::-webkit-color-swatch {
+    padding: 0;
+	border: none;
+    border-radius: 50%;
+    outline: none;
+    
+}
+.tooltip .tooltext {
+    visibility: hidden;
+    width: 50px;
+    background-color: rgba(214, 214, 214, 0.068);
+    color: inherit;
+    border-radius: 9px;
+    padding: 7.8px;
+    font-size: 8px;
+    position: absolute;
+    text-align: center;
+    transform: translate(20%, -360%);
+    z-index: 1;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all 0.069s;
+    text-transform: uppercase;
+  }
+  .tooltip:hover .tooltext {
+    /* transform: scale(1.02); */
+    box-shadow: 0px 5px 10px 0.005px rgba(56, 56, 56, 0.247);
+    border-radius: 10px;
+    visibility: visible;
+  }
+button {
+    border: none;
+    box-sizing: border-box;
+    width: 55px;
+	height: 55px;
+    outline: none;
+    border-radius: 50%;
+    background: conic-gradient(red, yellow, 
+    lime, aqua, blue, magenta, red);
+    margin-top: 2rem;
+    background-color: rgba(240, 240, 240, 0.411);
+    transition: all 0s;
+    box-shadow: 0px 0px 10px 4px #000000b7;
+}
+button:hover {
+    background-color: rgba(218, 224, 220, 0.719);
+    box-shadow: 0px 0px 2px 1px #020202b7;
+}
+p {
+    font-family: monospace;
+}
+
