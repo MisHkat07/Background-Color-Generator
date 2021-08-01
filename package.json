@@ -1,0 +1,21 @@
+{
+  "name": "background-color-generator",
+  "version": "1.0.0",
+  "description": "Customize your Background color with gradient style.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "index.html"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MisHkat07/Background-Color-Generator.git"
+  },
+  "author": "MisHkat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MisHkat07/Background-Color-Generator/issues"
+  },
+  "homepage": "https://github.com/MisHkat07/Background-Color-Generator#readme"
+}
